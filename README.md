@@ -135,7 +135,51 @@ Asimetricni atributi su binarni atributi kod kojih su bitne ne-nula vrednosti.
 
 # Nadgledano ucenje - modeli i atributi
 
+Nadgledano masinsko ucenje karakterise se time da su za sve
+unapred raspolozive podatke poznate vrednosti ciljne promenljive.
+
+Svakom ulaznom podatku x je pridruzena zeljena izlazna vrednost y
+koju algoritam treba da predvidi.
+
+**atributi**:
+
+U klasicnom masinskom ucenju rucno se specificiraju atributi.
+Svaki podatak se predstavlja kao vektor atributa.
+Svaki od izabranih atributa moze imati vrednost koja pripada nekom
+unapred zadatom skupu. Te vrednosti su nekad numericke a nekad kategoricke.
+U dubokom masinskom ucenju, model je u stanju da sam pronadje relevantne odlike.
+
+**model**:
+
+- potrebno je ustanoviti odnos izmedju atributa x i ciljne promenljive y
+- problemi koje danas razmatramo su cesto previse kompleksni, stoga se
+  pomenuti odnos cesto aproksimira na osnovu uzorka
+- zavisnosti izmedju promenljivih se modeluju funkcijom koja se naziva model
+- cilj masinskog ucenja je da se dobije model koji ce davati dobre
+  rezultate ne samo nad podacima nad kojima je ucenje vrseno
+  vec i nad nekim novim podacima. ova sposobnost se zove **generalizacija**
+
 # Problemi nenadgledanog ucenja - klasifikacija i regresija
+
+Standardni problemi nenadgledanog ucenja su
+klasifikacija (ciljna promenljiva je kategoricka) i 
+regresija (ciljna promenljiva je neprekidna)
+
+**klasifikacija**:
+
+- klasifikacija se sastoji u razvrstavanju nepoznate instance u jednu
+  od unapred ponujenih kategorija (klasa)
+- svakoj instanci je pridruzena vrednost klase kao i neke druge osobine.
+  problem klasifikacije sastoji se onda u odredjivanju vrednosti klase
+  na osnovu preostalih svojstava instance
+- ciljna promenljiva ima diskretnu vrednost i nije joj moguce dodeliti
+  neku numericku vrednost smisleno. klasa ciju je vrednost potrebno
+  odrediti, kategoricko je svojstvo
+
+**regresija**:
+
+Problem regresije predstavlja problem u kojem pored vrednosti svojstava
+svakoj instanci odgovara i neka neprekidna numericka vrednost koju je potrebno predvideti.
 
 # Model funkcija greske i rizik
 
