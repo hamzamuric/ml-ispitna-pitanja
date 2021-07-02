@@ -87,50 +87,51 @@ Asimetricni atributi su binarni atributi kod kojih su bitne ne-nula vrednosti.
 ### Preprocesiranje podataka
 
 1. izdvajanje karakteristika
-  - izdvajanje karakteristika iz ravnih/nestruktuiranih podataka
-  - karakteristika koja se izdvaja zavisi od aplikacije
-  - podaci mogu da sadrze heterogene tipove
+	- izdvajanje karakteristika iz ravnih/nestruktuiranih podataka
+	- karakteristika koja se izdvaja zavisi od aplikacije
+	- podaci mogu da sadrze heterogene tipove
 2. prenosivost tipova podataka
-  - neke karakteristike onemogucuju primenu gotovih alata
-  - pojedini algoritmi rade samo sa odredjenim tipovima podataka
-  - potrebna je promena tipa nekog podataka
-  - moguce je gubljenje informacija
-  - najcesca transformacija u numericke podatke
+	- neke karakteristike onemogucuju primenu gotovih alata
+	- pojedini algoritmi rade samo sa odredjenim tipovima podataka
+	- potrebna je promena tipa nekog podataka
+	- moguce je gubljenje informacija
+	- najcesca transformacija u numericke podatke
 3. prenosivost podataka izmedju tipova
-  - diskretizacija - neprekidni u kategoricke atribute
-  - binarizacija - kategoricki u numericke atribute
-  - tekstualni atributi u numericke
-  - podaci iz vremenskih serija u diskretne niske
-  - podaci iz vremenskih serija u numericke podatke
-  - diskretne niske u numericke podatke
+	- diskretizacija - neprekidni u kategoricke atribute
+	- binarizacija - kategoricki u numericke atribute
+	- tekstualni atributi u numericke
+	- podaci iz vremenskih serija u diskretne niske
+	- podaci iz vremenskih serija u numericke podatke
+	- diskretne niske u numericke podatke
 4. ciscenje
-  1. rad sa nedostajucim podacima
-    - razlozi za pojavu
-	  - informacije nisu prikupljenje
-	  - atributi nisu promenljivi u svim slucajevima
-	- rukovanje nedostajucim vrednostima
-	  - kompletni slogovi (ceo objekat) koji sadrze takav podatak se brisu
-	  - nedostajuca vrednost se procenjuje i unosi (imputacija)
-	  - algoritam moze da obradjuje i atribute/slogove sa nedostajucim podacima
-	  - zamena sa mogucim vrednostima
-  2. rad sa nekorektnim podacima
-    - otkrivanje nekonzistentnosti
-	- domenskon znanje
-	- metoda orijentisana ka podacima
-  3. rad sa dupliranim podacima
-    - najcesce se javljaju kod spajanja podataka iz heterogenih izvora
-	- najcesce se eliminisu iz materijala
-  4. skaliranje i normalizacija
-    - Transformacija promenljive oznacava transformaciju koja se primenjuje na sve vrednosti te promenljive
-	- za svaki objekat, transformacija se primenjuje na vrednost promenljive za taj objekat
-	- potreba za normalizacijom - vise atributa koji su razlicito skalirani
+	1. rad sa nedostajucim podacima
+		- razlozi za pojavu
+			- informacije nisu prikupljenje
+			- atributi nisu promenljivi u svim slucajevima
+		- rukovanje nedostajucim vrednostima
+			- kompletni slogovi (ceo objekat) koji sadrze takav podatak se brisu
+			- nedostajuca vrednost se procenjuje i unosi (imputacija)
+			- algoritam moze da obradjuje i atribute/slogove sa nedostajucim podacima
+			- zamena sa mogucim vrednostima
+	2. rad sa nekorektnim podacima
+		- otkrivanje nekonzistentnosti
+		- domenskon znanje
+		- metoda orijentisana ka podacima
+	3. rad sa dupliranim podacima
+		- najcesce se javljaju kod spajanja podataka iz heterogenih izvora
+		- najcesce se eliminisu iz materijala
+	4. skaliranje i normalizacija
+		- Transformacija promenljive oznacava transformaciju koja se primenjuje na sve vrednosti te promenljive
+		- za svaki objekat, transformacija se primenjuje na vrednost promenljive za taj objekat
+		- potreba za normalizacijom - vise atributa koji su razlicito skalirani
 5. redukcija podataka
+
   Manja kolicina podataka - efikasnija primena algoritma
-  - agregacija
-  - uzimanje uzoraka
-  - izbor karakteristika
-  - redukcija podataka pomocu rotacije osa
-  - ostale metode dimenzione redukcije
+	- agregacija
+	- uzimanje uzoraka
+	- izbor karakteristika
+	- redukcija podataka pomocu rotacije osa
+	- ostale metode dimenzione redukcije
 
 # Nadgledano ucenje - modeli i atributi
 
